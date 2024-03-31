@@ -197,3 +197,21 @@
 - NB!!!! DONT FORGET TO TURN THIS OFF AFTER USE (affect only -> ORIGIN -> 0FF)
 OR
 - in edit mode, if you move the object, it doesnt move the origin (you are moving whole object away from origin)
+
+## 17 linked duplicates
+- changing one item changes the other
+- DUPLICATE LINKED (ALT + D) -> creates a linked duplicate
+- DUPLICATE (SHIFT + D) -> duplicate (but not linked)
+
+#### LINK OBJECTS TO A PROTOTYPE
+- to link an object, select it, then shift + click on the object you want to link to  -> CTRL + L -> link object data
+
+#### SEPARATE OBJECT FROM GROUP PROTOTYPE
+- if you want to separage from a group where it was duplicate linked, 
+- LAYOUT WORKSPACE -> select the one you want to separate -> object -> relations -> make single user -> object and data
+
+#### Scaling options
+- modeling workspace -> default is "medium point" meaning all objects scale to their collective average center
+- modeling workspace -> individual origins
+NB!!!! DONT FORGET TO TURN BACK TO "medium point" for expected default behavior
+
