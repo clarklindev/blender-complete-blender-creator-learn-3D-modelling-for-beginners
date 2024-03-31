@@ -157,3 +157,27 @@
     -> doesnt add faces on stretch
 #### SUBTRACT FROM MESH
     -> hold down CTRL while in sculpting mode
+    
+---
+
+## 15 Decimate modifier
+- modifier used to change the poly count
+- sculpting workspace -> sculpt mode
+- TODO: low poly style
+
+#### DECIMATE 
+- modifier panel (wrench) -> TYPE: generate modifier -> DECIMATE -> RATIO (adjust) 
+- reducing decimate ratio reduces poly count
+- decimate modifier tool -> dropdown -> apply
+- show stats -> top main toolbar -> overlays -> statistics
+- modifiers need to be applied in object mode
+- it is a desctructive workflow -> meaning there is no going back if modifier is applied
+
+#### Proportional editing 
+-> edit mode
+- sculting toolbar menu -> target like button (o) 
+-> then select a vertice 
+-> G (to grab)
+-> move around vertice + use mouse wheel (affects "circle of influence") to move multiple vertices around
+
+
