@@ -179,5 +179,21 @@
 -> then select a vertice 
 -> G (to grab)
 -> move around vertice + use mouse wheel (affects "circle of influence") to move multiple vertices around
+- NB!!! DONT FORGET TO TURN THIS OFF
 
+---
 
+## 16 Snapping
+- first scale up/down lighthouse and place ontop rock
+- scale down houses
+- move houses onto rock
+- sculpting workspace -> top toolbar -> snapping (magnet icon) -> use snapping tool if necessary
+- OPTION: snap with -> center -> snap to face -> align rotation to target -> aligns to rotation of the object face normal (direction perpendicular to the face)
+- OPTION: turn on Project individual elements
+
+### set object origin
+- sculpting workspace -> top toolbar -> SNAPPING -> off
+- OBJECT MODE -> select object -> main view -> top right -> options -> affect only -> ORIGIN -> SELECT -> moving only affects object origin
+- NB!!!! DONT FORGET TO TURN THIS OFF AFTER USE (affect only -> ORIGIN -> 0FF)
+OR
+- in edit mode, if you move the object, it doesnt move the origin (you are moving whole object away from origin)
