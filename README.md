@@ -91,3 +91,39 @@
 - tool options (bottom-left) -> even (this evens out shape to make it flat)
 - tool options (bottom-left) -> flipped will make shape mimic the top side
 - exact positions (eg on z) while in edit mode, if you are adjusting an edge (G - grab mode) -> Z (lock to z-axis) -> type the values
+
+### 13 make a Lighthouse
+- TODO: make a lighthouse, collections, inset tool
+- scene collection -> eye icon -> hides from viewport
+- scene collection -> camera icon -> hides from render
+- organize scene collection with "collections"
+
+#### to unselect item from a group: 
+    - drag-select multiple objects in viewport
+    - hold down control AND THEN drag select a box over item to remove from group selection
+
+- M (move selection menu) -> to new collection
+- rename item/collection -> F2
+
+#### zoom in /focus/center to viewport on selected object
+- if you lose focus on an item from viewport, to re-center
+- goto scene selection, select the object/item/collection layer so its highlighted
+- numpad press "." OR select the object/item/collection from scene selection -> main view menu -> frame select
+
+#### lighthouse continued...
+- add cylinder
+- create cylinder menu (bottom left) -> down vertices to 16
+- edit mode -> faces -> select cylinder top face
+
+#### lathe machine like effect / #### INSET-faces (left menu) command (i) 
+- "inset faces" (i) - does extrude AND scale
+- E (extrude - then immediately afterwards) -> S (scale)  > make it smaller (mouse move) to make smaller radius
+- E again and pull up to make shape longer -> S (scale)
+
+#### SELECTING SIMILAR FACES
+- deselect -> SELECT A FACE -> Alt + Left click On an NB!!!! "EDGE" of that selected face of face loop (selects similar faces BUT it depends on if you clicked on horizonal or vertical edge)
+
+#### SCALE
+- S (scale)-> SHIFT + Z (this scales on every axes except Z) 
+
+---
