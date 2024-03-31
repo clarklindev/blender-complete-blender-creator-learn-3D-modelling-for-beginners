@@ -127,3 +127,33 @@
 - S (scale)-> SHIFT + Z (this scales on every axes except Z) 
 
 ---
+
+## 14 making a rocky base
+- TODO: learn how to use sculting brush
+
+- create a plane -> scale x,y,z to 30x
+### sculpting
+- start with base shape (*3d shape): create shape (SHIFT + A)-> mesh -> ico sphere
+
+#### SCULPTING WORKSPACE (top menu) 
+- change to sculpting workspace
+- TODO: SCULPT mode
+- DRAW BRUSH (V)
+- CHANGE BRUSH SIZE (F)
+- TODO: paint (hold left mouse button )
+
+#### Dyntopo - Adding topology complexity (more faces) 
+- select sculting workspace (top menu) 
+- Dyntopo (top menu) -> checked -> this allows adding more faces to low triangle surfaces 
+    -> detail size: size of faces it creates
+    -> detailing -> relative detail 
+        -> resolution 12: lower number = smaller the faces
+        -> changes face size/ detail level depending on how zoomed in you are...
+    -> detailing -> constant detail 
+        -> resolution 3: higher number = smaller the faces
+        -> same face size no matter zoom.
+#### GRAB 
+    -> sculpting mode -> grab brush
+    -> doesnt add faces on stretch
+#### SUBTRACT FROM MESH
+    -> hold down CTRL while in sculpting mode
