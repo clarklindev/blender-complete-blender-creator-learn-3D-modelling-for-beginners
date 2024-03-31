@@ -35,7 +35,7 @@
     - render preview (move light / cycles (ray-tracing)(higher quality but slower / device: GPU compute))
 - scene collection: viewport visibility / render visibilty
 - render image -> F12
-    -> NUM0 -> view -> view lock -> lock camera to view
+    -> N (main viewport side menu) -> view -> view lock -> lock camera to view
     -> ADJUST CAMERA: hold SHIFT + mouse button to shaft camera
     -> ADJUST CAMERA: mouse wheel to zoom
 - EEVEE vs Cycles (slower)
@@ -79,7 +79,15 @@
 - vertex select mode
 - edge select mode
 - face select mode
-    - E (extrude face) / or on left toolbar extrude button
+    - E (extrude face) / or on left toolbar extrude button 
     - do not negate the extrude 
 - disect a face (loop cut) 
     - select a face -> CTRL + R -> move to get position -> left click (or right click to cancel)
+
+### 12 simple houses
+- adding another while in edit mode joins the parts into a single object (so be in object mode)
+- ungroup -> edit mode -> P (separate) -> by loose parts 
+- when loop cut is not "straight" but follows same contour of shape its cutting, you can once clicked on loop cut, 
+- tool options (bottom-left) -> even (this evens out shape to make it flat)
+- tool options (bottom-left) -> flipped will make shape mimic the top side
+- exact positions (eg on z) while in edit mode, if you are adjusting an edge (G - grab mode) -> Z (lock to z-axis) -> type the values
