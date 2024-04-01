@@ -228,3 +228,13 @@ NB!!!! DONT FORGET TO TURN BACK TO "medium point" for expected default behavior
 - make use of slots -> each slot gets a material (*material has to exist)
 - so you go into edit mode and select the face/s and then assign slot a material
 
+## 19 lighthouse materials
+- TODO: lighthouse loopcut + EMISSION materials (emit light)
+- loop cut (CTRL + R) AND use mouse wheel to set more cuts -> then click to confirm amount of cuts
+- TODO: create material slots x4 (red, white, gray-base, light)
+- emission -> strength
+- so step is to create the slot, create the material or assign to slot, then with the faces selected, you assign the slot
+
+#### grow selection
+- alt + left click on edge -> CTRL + (NUMPAD +) to grow selection
+- SHADING WORKSPACE -> Select -> select more or less (CTRL + numpad +/-)
