@@ -215,3 +215,16 @@ OR
 - modeling workspace -> individual origins
 NB!!!! DONT FORGET TO TURN BACK TO "medium point" for expected default behavior
 
+---
+## 18 material slots
+- SHADING workspace
+- VIEWPORT SHADING -> working in "material preview" mode
+- to drag-close a window, goto the panel top-left corner until cursor changes to crosshair -> then click+drag to the panel that you would like to "consume"
+- adding colors to objects by creating materials
+
+#### How to set up one object with 2 materials on it?
+- give whole object a material color (eg. house color)
+- create the slots
+- make use of slots -> each slot gets a material (*material has to exist)
+- so you go into edit mode and select the face/s and then assign slot a material
+
