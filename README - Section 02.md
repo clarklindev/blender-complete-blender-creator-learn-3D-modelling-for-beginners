@@ -50,3 +50,18 @@ Alt FIX:
 - vertex mode -> select corner -> CTRL + B (BEVEL) -> V (Affect (edges)) -> THEN use mouse wheel to control bevel edge (detail)
 - to tell blender which direction to join vertices -> select 2 opposite vertices
 
+---
+
+## 25 Pillar
+
+### Mirror Modifier + clipping
+- EDIT MODE -> in wireframe mode 
+- loop cut (horizontal)
+- select half the shape *(we will only work on half the pillar) and DELETE faces
+- OBJECT CENTER is important
+- Object mode -> main view -> top-right -> affect only origins -> move origin to position where everything will reflect from
+- add modifier (spanner icon) -> mirror on Z
+- SELECT: "clipping" -> will "stick" shape together
+- loop cut
+- select faces (xray + wireframe mode)
+- Extrude (e) -> Scale(S) + (Shift + Z (not on Z)) 
