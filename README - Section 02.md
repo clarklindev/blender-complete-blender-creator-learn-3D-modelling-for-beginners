@@ -65,3 +65,28 @@ Alt FIX:
 - loop cut
 - select faces (xray + wireframe mode)
 - Extrude (e) -> Scale(S) + (Shift + Z (not on Z)) 
+
+## 26 Pillar details
+- modifiers -> apply (CTRL + A)
+- to merge vertice, select multiple vertices, right click -> merge -> by distance (adjust distance limit before merge)
+- select edge -> then further down... CTRL + Left click (selects all edges between + including start and finish edge)
+- the modifier (mirror) needs to be applied (in object mode) to tweak individual vertices else it applies to the mirror side as well.
+
+## 27 Pillars (knife / bisect cut) 
+- edge slide -> Even (e) to mimic edge (top/bottom) and 'flipped' for (top/bottom)
+- loop cuts only work on quads, not n-gon (more than 4 verices)
+- FIX: knife (K) -> allows you to make cuts (on edge/vertices) -> enter
+- FIX: knife tool (hold in) -> biscect
+- before using bisect tool, have to select vertices/edges/faces (A - to select all) that you want to be affected -> then click and draw line across shape to bisect
+
+#### Pillars distort with "Randomize" 
+- select A (except top and bottom by CTRL + select drag)
+- then mesh -> transform -> randomize -> 0.01 
+- add material color
+
+## 28 Adding materials
+#### Link material (CTRL + L)
+- the select all that you want to match color with (like style painter) then select the object with material you want to copy, then CTRL + L (link materials)
+- render engine EEVEE -> ambient occlusion -> ON 
+- screen space reflections -> ON
+
