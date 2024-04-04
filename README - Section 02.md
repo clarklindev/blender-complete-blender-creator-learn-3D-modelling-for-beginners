@@ -90,3 +90,10 @@ Alt FIX:
 - render engine EEVEE -> ambient occlusion -> ON 
 - screen space reflections -> ON
 
+---
+
+## 29 walls
+- build block by block vs. plane with extrusions (less polygons)
+- USE knife tool (K) to make brick-cuts
+- once you are complete "ENTER" to complete using knife cut
+- in facemode, select faces -> Inset (I) -> check individual
