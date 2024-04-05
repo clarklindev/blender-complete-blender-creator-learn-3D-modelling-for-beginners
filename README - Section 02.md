@@ -97,3 +97,15 @@ Alt FIX:
 - USE knife tool (K) to make brick-cuts
 - once you are complete "ENTER" to complete using knife cut
 - in facemode, select faces -> Inset (I) -> check individual
+-> OBJECT MODE: main viewport -> viewport gizmos (top) -> object gizmos -> move -> shows gizmos
+-> main viewport -> transform orientation -> (change from global to local)
+- MIRRORING ERROR -> N (menu)-> item -> rotation is not 0
+- Mirror Modifier is taking the local axis instead of global axis
+- NEED TO APPLY ROTATION (CTRL + A) -> this resets values to 0 as if its the reset position
+- Turn off Object Gizmos -> Move
+- Edit mode
+- select all (A) 
+- Grab (G + Y) on Y-axis AND separate the mirrored part
+- the top of the walls should now hav a gap, need to join
+- select the edge then Grab (G) + Y (ensure modifiers-> clipping is on)
+- dissolve extra edges (on the top)
