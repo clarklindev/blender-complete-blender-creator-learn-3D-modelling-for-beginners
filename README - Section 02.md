@@ -146,4 +146,6 @@ Alt FIX:
 - Select all (A) -> mesh -> Transform -> randomize
 
 ## 33 Cutting the door opening
-- using a shape to cut a hole in shape using BOOLEAN operation
+- OPTION 1 - use knife tool to cut hole
+- OPTION 2 - using a shape to cut a hole in shape using BOOLEAN operation
+- in WIREFRAME + XRAY mode -> make cuts and select faces you wont need -> delete faces (deletes both side of wall (because its XRAY/WIREFRAME mode))
