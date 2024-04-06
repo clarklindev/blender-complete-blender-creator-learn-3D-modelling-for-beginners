@@ -148,4 +148,14 @@ Alt FIX:
 ## 33 Cutting the door opening
 - OPTION 1 - use knife tool to cut hole
 - OPTION 2 - using a shape to cut a hole in shape using BOOLEAN operation
-- in WIREFRAME + XRAY mode -> make cuts and select faces you wont need -> delete faces (deletes both side of wall (because its XRAY/WIREFRAME mode))
+- in WIREFRAME + XRAY mode -> make cuts and select faces you wont need -> delete faces (deletes both side of wall (because its XRAY/WIREFRAME mode)) 
+
+## 34 Shading the walls
+
+####Linked Selection
+- TIP: selects linked (L) 
+- select inverse (CTRL + I)
+- hide pillar
+- select wall faces (minus outer CTRL + MINUS) 
+- reveal Hidden (ALT + H) 
+- zoom-in on selected object -> select object + NUM /
