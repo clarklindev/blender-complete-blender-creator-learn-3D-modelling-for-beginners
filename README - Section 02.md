@@ -109,3 +109,41 @@ Alt FIX:
 - the top of the walls should now hav a gap, need to join
 - select the edge then Grab (G) + Y (ensure modifiers-> clipping is on)
 - dissolve extra edges (on the top)
+
+## 30 Completing the wall
+- simple join (CTRL + J)
+- or join with boolean
+- joining eg. B to A, B will lose its modifiers -> so apply modifiers to B before joining.
+- to join, select all you want to join and what you want to join to last 
+- CTRL + J after selecting to join together
+- SHIFT + D -> duplicate -
+    -> Move (X 5)
+    -> Rotate (R) + Z + 90
+
+#### Overlapping geometry
+- inside faces where pillar / wall meet -> FIX: booleans
+- for speed - weld building with overlapping geometry is common and is fine...
+
+## 32 CREATE HOLDDOOR
+- TODO: draw outline of door then negative extrude
+- SHIFT RIGHT CLICK (move cursor)
+- use a plane -> rotate x:90deg, size: 1m
+- plane will be mirrored to right side
+- modifier -> mirror (Axis X)
+- so up to this point because the origin of the plane is centered on the plane, it doesnt look like anything has happened BUT
+- if you move the origin (towards center of doorway outside of plane dimensions), then the mirror will also be offset  
+- TURN off TRANSFORM -> "affect only origin"
+
+#### Create the arch
+- then scale down
+- then select plane top edge -> Extrude (E) and Rotate(R) as needed
+- MODIFIER -> turn on clipping (for overlaps) when they overlap at the top, move so they just touch (stick) on top/bot of edge to mirrored edge
+- also mirror on Y 
+- isolate door shape (numpad + /) 
+- extrude (E) when in isolation (with modifiers -> clipping on) so you can see what you're doing
+- bevel the arch lines
+- merge vertices together -> select ALL (A) -> merge (M) -> by distance
+- Select all (A) -> mesh -> Transform -> randomize
+
+## 33 Cutting the door opening
+- using a shape to cut a hole in shape using BOOLEAN operation
