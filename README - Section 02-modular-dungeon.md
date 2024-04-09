@@ -152,10 +152,24 @@ Alt FIX:
 
 ## 34 Shading the walls
 
-####Linked Selection
+#### Linked Selection
 - TIP: selects linked (L) 
 - select inverse (CTRL + I)
 - hide pillar
 - select wall faces (minus outer CTRL + MINUS) 
 - reveal Hidden (ALT + H) 
-- zoom-in on selected object -> select object + NUM /
+- zoom-in on selected object -> select object (from scene collection *right viewport) + "NUM /"
+
+## 35 Creating the floor modules
+- ctrl + a (APPLY transformations)
+- turn snapping on  
+- Linked Duplicate (Alt + D)
+- Duplicate (NOT linked) (Shift + D)
+- repeat last action (SHIFT + R)
+- when joining asset -> remember to select the object you want to join to last
+
+#### editing library asset 
+- to edit, duplicate and move to its own collection
+- then select face/vertice/edge + select linked object (L)
+- right click -> separate -> by selection 
+- then dont forget to right click -> set origin -> set origin to geometry
