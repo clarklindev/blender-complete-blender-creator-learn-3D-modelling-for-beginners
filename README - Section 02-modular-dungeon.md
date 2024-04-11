@@ -167,6 +167,7 @@ Alt FIX:
 - Duplicate (NOT linked) (Shift + D)
 - repeat last action (SHIFT + R)
 - when joining asset -> remember to select the object you want to join to last
+- IF YOU ZOOM OUT WITH THE MOUSE AND THE WORLD starts getting affected by fog, change scene -> world -> mist pass distance.
 
 #### editing library asset 
 - to edit, duplicate and move to its own collection
