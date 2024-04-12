@@ -11,7 +11,7 @@
 - edit mode -> faces mode -> select all (A)
 - primitives shapes come with uv maps.. (except circle) 
 - select all (A) -> shows uv map in uv editor..
-- right view menu -> material properties -> turn on backface culling so image maps are not double sided.
+- right view menu -> material properties -> VIEWPORT display -> turn on backface culling so image maps are not double sided.
 
 ### UV EDITOR WINDOW / WORKSPACE 
 - NOTE: selecting a face on object only shows individual face on uv editor...
@@ -60,3 +60,13 @@
 - edit mode -> select all (A) -> unwrap menu (u) -> unwrap
 - NO SEAMS? -> edge mode -> alt left click edge -> right click -> mark seam
 - barrel texture -> can drag directly from file explorer onto shader editor viewport (one at a time)
+
+## 57 lots of barrels
+- technique to reuse texture... just rotate the 3d object to expose different part of uv map
+- each unique texture needs a material
+- NOTE: when uv's go outside the bounds of the texture, it just repeats itself (ie. the UV shape can be larger than the texture)
+- 3d viewport -> if you edgeslide (g + g -> instead of grab (g)) it alows you to move the UV texture AND the edge on 3d object
+
+#### Clamping / edge slide (C)
+- EDGE SLIDE -> can be used to change shape of 3d object without changing shape of UVs (G -> G)
+- edit mode: edge slide options: clamp (c) DEFAULT IS on (restricts to shape of 3d object) C -> turns it off 
