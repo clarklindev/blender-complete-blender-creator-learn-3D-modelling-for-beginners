@@ -70,3 +70,52 @@
 #### Clamping / edge slide (C)
 - EDGE SLIDE -> can be used to change shape of 3d object without changing shape of UVs (G -> G)
 - edit mode: edge slide options: clamp (c) DEFAULT IS on (restricts to shape of 3d object) C -> turns it off 
+
+---
+
+## 58 Spitfire plane model
+- drag front, top, side images from explorer into 3d viewport.
+- ALT + G (remove movement)
+- ALT + R (remove rotation)
+- after importting images, align them up by using a 3d mesh cube as reference
+TIP: you can set 3d cursor (SHIFT + right click) to a new position
+- then set transform pivot point (main menu -> transform pivot point -> 3d cursor)
+
+#### TOP, FRONT, SIDE show ref images ONLY
+- after setting the box size, object data properties (right viewport) -> empty -> turn off perspective for (top, side and front)
+
+#### mesh auto mirror tool (model only on one side)
+- edit -> preferences -> add-ons -> mesh: auto-mirror tool
+- menu (N) -> edit -> auto mirror
+- auto mirror mirrors around object origin (FIX: set origin to geometry) 
+- edit mode, you only model the one side
+- side view -> xtray mode + wireframe -> select and model vertices to match plane body
+
+#### square out shape
+- reset scale on x (S + X + 0)
+- move inwards ( G + X + mouse move)
+
+#### TAIL
+- extrude (E) + Z + Z (extrude vertically)
+- tail: flatten out on Z (S + Z + 0) 
+- EDGE -> g + g -> move mouse -> CLICK TO CONFIRM
+- rear fins: select faces -> inset (I)
+
+## 59 plane body / 60 MAKING THE WINGS
+- Practicing G + G + slide on X and Z
+- and S + S and setting x to 0
+
+## 61 completing the plane model
+
+### set origin on vertex
+- EDIT MODE: select vertex -> SHIFT + S -> (while holding it down...) -> select cursor to selected
+- add cylindar (nose of plane) -> change to 8 vertices -> rotate 90 (R + X + 90) 
+
+#### SOLIDIFY modifier -> Thickness to shape
+- to add thickness -> modifiers -> solidify
+- settings: offset is the direction the thickness protrudes forward or backward
+- apply the scale (CTRL + A) -> scale
+- twisting propellars: select outside 3 edges of propellar -> proportional editing (on) (shortcut O) -> use mouse wheel to control the circle of influence
+- then R + Z (rotate only on Z)
+- ensure the propellar head is center with pivot point 
+- create linked duplicate (alt + D) -> rotate 120
