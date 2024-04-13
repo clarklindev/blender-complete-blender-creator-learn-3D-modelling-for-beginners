@@ -119,3 +119,11 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - then R + Z (rotate only on Z)
 - ensure the propellar head is center with pivot point 
 - create linked duplicate (alt + D) -> rotate 120
+
+## 62 unwrapping the plane
+- if you are using mirror modifier / auto mirror -> the uv map are ontop of each other
+- so the body's mirror modifier should be applied
+- the propellar should not be mirrrored
+- the wings, cockpit and tail should be mirrored
+- create seams and unwrap
+
