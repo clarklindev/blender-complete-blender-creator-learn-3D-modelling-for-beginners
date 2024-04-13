@@ -127,3 +127,28 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - the wings, cockpit and tail should be mirrored
 - create seams and unwrap
 
+## 64 texture the body
+#### project from view
+- 3d object view -> edit mode -> select all (a) -> if you unwrap (u) -> project from view
+- uv's appear on uv editor and they appear same as layout on sideview
+
+## 65 - PREPARING FOR ANIMATION
+
+#### Grouping with "Empty"
+- use an empty to group objects together for easier animation: add (shift + A -> empty -> plain axes)
+- ensure its at center of plane
+- put everything in plane collection
+- select all (A) -> then make empty the active object (shift select the empty)
+- 3d viewport -> top menu -> object -> parent -> object (CTRL + P)
+- now moving the empty moves the whole plane
+- children can be moved independently of the parent (empty)
+
+#### THE propellar nose parent system
+- with the nose selected, move the cursor to selected...
+- create a circle empty 
+- set up propelar with parent controller (empty) -> so the blandes and nose are selected, then select the propellar controller (selected last)
+- object -> parent -> object (CTRL + P)
+- rotate on Y axis
+
+#### connect the propellar controller to the plane controller
+- select propellar controller, then select plane controller (ORDER IMPORTANT) -> then CTRL + P 
