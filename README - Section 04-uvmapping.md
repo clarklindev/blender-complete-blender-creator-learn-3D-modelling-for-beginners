@@ -152,3 +152,21 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 
 #### connect the propellar controller to the plane controller
 - select propellar controller, then select plane controller (ORDER IMPORTANT) -> then CTRL + P 
+
+## 66 animating the plane
+- to prep the scene, you can import another blender files assets (object / collection)
+- menu -> file -> append -> (select from blender file the assets to import)
+- ANIMATION WORKSPACE: 
+- move object in starting position, and move Animation dropsheet viewport  to frame 0
+- move mouse over 3d viewport and insert (I) -> location + rotation
+- on output properties (right panel) -> set frames per second 
+- calculate time that will pass (eg 2 seconds === 50frames) so at 50 frames, move the object to destination then add the keyframe (i -> location + rotation)
+- pressing space bar repeats the animation 
+- on timeline viewport -> set animation end frame (right side)
+- to delete a keyframe, select the keyframe (by the dot) on the animation dope sheet -> delete (del key)
+
+#### animate propellar controller
+- zoom in on object (numpad .) 
+- select the propellar controller: insert keyframe (i) -> rotation
+- the at frame 50, rotate propellar like R + Y + 3600 + ENTER 
+- add the keyframe (i -> rotation)
