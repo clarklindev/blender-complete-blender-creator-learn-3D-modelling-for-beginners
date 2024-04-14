@@ -134,7 +134,7 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 
 ## 65 - PREPARING FOR ANIMATION
 
-#### Grouping with "Empty"
+#### Grouping / link with "Empty"
 - use an empty to group objects together for easier animation: add (shift + A -> empty -> plain axes)
 - ensure its at center of plane
 - put everything in plane collection
@@ -154,13 +154,18 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - select propellar controller, then select plane controller (ORDER IMPORTANT) -> then CTRL + P 
 
 ## 66 animating the plane
+- NB: turn off affect only origins - main view -> options (top right) -> transform -> AFFECT ONLY (ORIGINS) -> OFF 
 - to prep the scene, you can import another blender files assets (object / collection)
 - menu -> file -> append -> (select from blender file the assets to import)
 - ANIMATION WORKSPACE: 
 - move object in starting position, and move Animation dropsheet viewport  to frame 0
+- apply rotation: CTRL + A -> rotation
 - move mouse over 3d viewport and insert (I) -> location + rotation
 - on output properties (right panel) -> set frames per second 
-- calculate time that will pass (eg 2 seconds === 50frames) so at 50 frames, move the object to destination then add the keyframe (i -> location + rotation)
+- calculate time that will pass (eg 2 seconds === 50frames) so at 50 frames, 
+
+#### First move the object to final location (Dope sheet in terms of frames)... then the object on the 3d viewport
+- move the object to destination then add the keyframe (i -> location + rotation)
 - pressing space bar repeats the animation 
 - on timeline viewport -> set animation end frame (right side)
 - to delete a keyframe, select the keyframe (by the dot) on the animation dope sheet -> delete (del key)
@@ -170,3 +175,10 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - select the propellar controller: insert keyframe (i) -> rotation
 - the at frame 50, rotate propellar like R + Y + 3600 + ENTER 
 - add the keyframe (i -> rotation)
+
+## 67 scene + animation adjustments
+- duplicate the buildings
+- add new textures
+- make some crates
+
+
