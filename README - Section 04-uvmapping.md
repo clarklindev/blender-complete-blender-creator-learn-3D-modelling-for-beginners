@@ -181,4 +181,48 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - add new textures
 - make some crates
 
+#### change background (HDRI)
+- SHADER viewport -> dropdown: WORLD -> change background
+- CTRL + T -> shows 3 nodes (texture coordination, mapping, environment texture)
+- change environment texture
 
+## 68 LIGHTING AND HDRI's
+- the hdri can be rotated to fit viewport
+- you can choose between cycles or eeve
+- render viewport -> bring in the hdri image -> CTRL + T (shows 3 nodes - texture coordination, mapping, environment texture)
+
+#### Rotating HDRI
+- under mapping rotate on Z
+
+#### EEVE
+- EEVE: render properties panel (right) -> turn on ambient occlusion
+- sun strength 3.0 
+- background strength: 0.3
+
+#### CYCLES
+- turn on denoise for 3d viewport
+- turn on denoise for rendered image
+
+---
+## 69 rendering animations
+- test rendering with eeve then finally with cycles
+- output properties -> reduce resolution % to 50%
+- check frame range
+- output settings -> choose the output folder  
+- render to images/video 
+
+#### render to images
+- png (images png sequence (alpha chanel RGBA))
+- render properties -> film -> transparent (select)
+
+#### render to video
+- encoding -> matroska or mpeg-4
+- quality -> perceptually lossless
+- encoding speed -> slowest
+
+#### start render
+- render -> render animations
+
+#### view rendered animation
+- press spacebar
+- or render -> view animation
