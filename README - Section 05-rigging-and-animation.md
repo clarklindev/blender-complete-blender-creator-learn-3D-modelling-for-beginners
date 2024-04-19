@@ -1,4 +1,4 @@
-# Section 05 - rigging and animation
+# Section 05 - rigging and animation (lesson 71-86)
 
 ## 71 - intro
 walk cycle - playing animation over and over
