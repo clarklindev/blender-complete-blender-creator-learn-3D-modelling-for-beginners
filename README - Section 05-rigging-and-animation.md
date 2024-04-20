@@ -46,10 +46,35 @@ Lecture thumbnail
 - can adjust the duration the ball stays on top by playing with the curve (pivot point -> individual centers) -> select all -> drag out so it rounds out the graph
 
 ## 75 bone basics
-- makes a worm
-- explains 
+- makes a worm animation
+- bones requires vertices to deform
+- EDIT MODE: add loop cuts (CTRL + R) -> roughly 10 cuts
+- add subdivision surface modifier
+#### BONES (armature)
+- bones are called armature made up of one or more bones
+- SHIFT + A -> armature
+- right panel -> data object properties (stick man icon button) -> viewport display -> in front
+
+#### BONE MODES
+- bones have 3 modes:
+1. object
+2. edit (build the bone skeleton)
+3. pose mode for animating
+
+# attach a bone
+- EDIT MODE: select bone (end joint) -> extrude (E)
+- duplicate a selection of bones -> then select the one you want to connect -> then select the one you want to connect to last -> parent (CTRL + P) -> connected
 
 ## 76 animating bones
+- select bone and skin and apply rotation (CTRL + A)
+- reset positions to center of world (ALT + G)
+
+#### set up relationship (SNAKE TO BONES)
+1. NB ORDER IMPORTANT: select snake object first then select the bones second (bones become the parent)
+2. set to parent (CTRL + P)
+
+
+
 ## 77 subdivision surface modelling
 ## 78 the modifier stack
 ## 79 blob man
