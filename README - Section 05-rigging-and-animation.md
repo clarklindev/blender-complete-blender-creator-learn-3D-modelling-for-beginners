@@ -66,14 +66,39 @@ Lecture thumbnail
 - duplicate a selection of bones -> then select the one you want to connect -> then select the one you want to connect to last -> parent (CTRL + P) -> connected
 
 ## 76 animating bones
-- select bone and skin and apply rotation (CTRL + A)
+- select bone and skin and apply rotation (CTRL + A) with the objects already positioned origin center 0,0,0
 - reset positions to center of world (ALT + G)
+#### only bones have pose mode 
+- set up animation cycle in pose mode
 
 #### set up relationship (SNAKE TO BONES)
 1. NB ORDER IMPORTANT: select snake object first then select the bones second (bones become the parent)
-2. set to parent (CTRL + P)
+2. set parent to (CTRL + P) armature deform -> with automatic weights 
 
+- then in object mode: select just the snake *(without the bones) and go into weight painting mode 
 
+#### weight painting
+- see the influence a certain bone has on the shape
+- area in red is fully influenced by the bone
+- area in blue is infleunced less by bone
+- pinching occurs when rigging with low poly models
+- FIX: more topology and more bones for smoother transition
+
+- object mode is for moving entire object around scene
+- POSE MODE is for animating animation cycles on the spot
+
+#### animating bones
+- POSE MODE
+- select all bones
+- dope sheet 
+- keyframe at 0 for all bones (on rotation and location)
+- for loop animation should start on frame 0 to not miss any frames
+- use timeline to record
+- move to frame (eg 25)
+- animate character (snake)
+- note if animation should return to starting position , you can duplicate the original keyframes and add keyframe inbetween
+- to duplicate: move playhead to destination keyframe -> select all bones to animate -> duplicate (shift d) (summary - top frame for all elements)
+- the animation is looped by setting the start/end frame on the timeline
 
 ## 77 subdivision surface modelling
 ## 78 the modifier stack
