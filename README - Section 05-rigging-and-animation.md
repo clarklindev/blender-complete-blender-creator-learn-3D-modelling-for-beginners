@@ -109,6 +109,8 @@ Lecture thumbnail
 - inset (i) moves edges closer to sides 
 - boundary (b) to exclude inset for mirror
 - BUT is easier to separate screen from tv -> select -> right click -> separate
+- stack is important, mirror should usually be first
+- then subsurface modifier
 
 ## 79 blob man
 ## 80 rig ready meshes
