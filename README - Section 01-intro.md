@@ -5,8 +5,13 @@
 ## SHORTCUTS
 
 ### settings (preferences)
-- emulate numpad -> use number keys on keyboard: 1,2,3,4,5,6,7 / CTRL + 1,2,3,4,5,6,7 (for reverse of 1-7)
+- preferences -> input -> keyboard -> emulate numpad -> use number keys on keyboard: 1,2,3,4,5,6,7 / CTRL + 1,2,3,4,5,6,7 (for reverse of 1-7) 
+- note: if emulate numpad is on, this prevents surface subdivision (CTRL + 1, CTRL + 2, CTRL + 3, etc) from working
 - emulate 3 button mouse -> alt + left click
+
+#### numpad replacements
+- leave emulate 3 button mouse off and to emulate numpad use ` key...
+- alt key and then middle mouse button to drag to orientation of gizmo (where view should go)
 
 ### 05 moving around the scene (buttons are also on main view (top - right))
 - move around viewport -> hold middle mouse button
@@ -25,6 +30,8 @@
 - grab axis scale -> S + X,Y,Z (right-click to cancle before left click)
 - selected -> yellow (active object) + orange (others)
 - main view side menu -> N
+- after adding an object, there is a properties menu on the 3d viewport which dissapears if you confirm the shape after creation, to bring it back F9
+- to add subdivision modifier to added shape (CTRL + 1)
 
 ### 07 Viewport and renderings
 - modes: 

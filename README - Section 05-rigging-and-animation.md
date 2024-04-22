@@ -101,7 +101,15 @@ Lecture thumbnail
 - the animation is looped by setting the start/end frame on the timeline
 
 ## 77 subdivision surface modelling
+- add auto mirror: 3d viewport -> menu (n) -> edit -> auto mirror (turned on via preferences add-ons -> mesh:auto-mirror) -> x-axis, orientation: positive
+- add subdivision surface modifier: levels view: 3, render: 3
+
 ## 78 the modifier stack
+### the tv screen: 
+- inset (i) moves edges closer to sides 
+- boundary (b) to exclude inset for mirror
+- BUT is easier to separate screen from tv -> select -> right click -> separate
+
 ## 79 blob man
 ## 80 rig ready meshes
 ## 81 building the armature
