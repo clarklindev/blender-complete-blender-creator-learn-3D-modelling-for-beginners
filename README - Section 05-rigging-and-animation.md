@@ -113,6 +113,11 @@ Lecture thumbnail
 - then subsurface modifier
 
 ## 79 blob man
+- select all group to new collection (M)
+- move head to 4m 
+- then cursor to world origin (SHIFT + S)
+- create neck (cube) -> auto mirror on X
+
 ## 80 rig ready meshes
 ## 81 building the armature
 ## 82 IK and parenting
