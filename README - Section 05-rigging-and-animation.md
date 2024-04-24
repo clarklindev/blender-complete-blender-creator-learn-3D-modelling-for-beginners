@@ -119,6 +119,12 @@ Lecture thumbnail
 - create neck (cube) -> auto mirror on X
 
 ## 80 rig ready meshes
+- bevel (CTRL + B) around shoulder, arm and wrist joints then use mouse wheel to add extra loop cut
+- bevel (CTRL + B) cut around knee, foot
+- A shaped figure instead of T 
+- move 3d cursor around shoulder joint, change pivot point (transform pivot point) -> 3d cursor
+
+
 ## 81 building the armature
 ## 82 IK and parenting
 ## 83 weight painting
