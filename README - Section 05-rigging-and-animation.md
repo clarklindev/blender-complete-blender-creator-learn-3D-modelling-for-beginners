@@ -124,8 +124,34 @@ Lecture thumbnail
 - A shaped figure instead of T 
 - move 3d cursor around shoulder joint, change pivot point (transform pivot point) -> 3d cursor
 
-
 ## 81 building the armature
+- add armature -> select armature (bone) -> object data properties (right panel - skeleton icon) -> viewport display -> in front
+- TODO: be able to disconnect a bone from its parent and reconnect to another bone
+- ensure arm roll is about the same: N (menu) -> transform -> Roll -> 220degrees for arm bones
+- duplicate arm bones for leg bones -> roll 270
+- parent leg bones to base bone of the spine
+
+#### mirroring bones
+- for bone mirroring to work, you need to label bones (F2)
+- so select the bone then F2 to label 
+- the spline bones dont need to be mirrored but the arm and leg bones need specific labelling syntax
+- NB: use separator _l eg. thigh_l
+#### valid separators
+1. nothing -> handLeft -> handRight
+2. _ underscore -> hand_L -> hand_R / hand_l -> hand_r
+3. . dot -> hand.l -> hand.r
+4. - dash -> hand-l -> hand-r
+5. space -> hand LEFT -> hand RIGHT
+
+- will also work if Left/Right part are before the name
+- can only use L/R shorthand syntax if you use a separator
+- select all the bones to mirror -> right click -> symmetrize
+
+
+
+
+
+
 ## 82 IK and parenting
 ## 83 weight painting
 ## 84 animating the walk cycle
