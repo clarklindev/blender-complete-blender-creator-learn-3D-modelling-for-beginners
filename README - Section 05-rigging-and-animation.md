@@ -181,5 +181,16 @@ Lecture thumbnail
 - for the head select the tv and all its components, then select the bone (active) -> parent (CTRL + P) -> set parent to -> bone
 
 ## 83 weight painting
+- go out of pose mode -> object mode -> select character -> then weight painting
+- object mode -> select armature (BONES) first -> then SHIFT + select mesh -> then go into weight painting mode -> now you can hold down control (CTRL) and click and see the weight of each section
+- now you can hold ALT + click on a bone to weight paint each bone
+- adjust weight and paint more (value 1)-> or adjust and paint less (value 0)
+- change brush size (F)
+
+#### resets
+- RESET rotations: select all (A) -> reset (ALT + R)
+- RESET movement: select all (A) -> reset (ALT + G)
+
+
 ## 84 animating the walk cycle
 ## 85 animated textures
