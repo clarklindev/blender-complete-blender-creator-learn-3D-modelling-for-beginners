@@ -128,7 +128,7 @@ Lecture thumbnail
 - add armature -> select armature (bone) -> object data properties (right panel - skeleton icon) -> viewport display -> in front
 - TODO: be able to disconnect a bone from its parent and reconnect to another bone
 - ensure arm roll is about the same: N (menu) -> transform -> Roll -> 220degrees for arm bones
-- duplicate arm bones for leg bones -> roll 270
+- duplicate arm bones for leg bones -> roll 270 (the roll should be adjusted so the face is flat towards the camera in front orthographic view) for all bones
 - parent leg bones to base bone of the spine
 
 #### mirroring bones
@@ -147,12 +147,39 @@ Lecture thumbnail
 - can only use L/R shorthand syntax if you use a separator
 - select all the bones to mirror -> right click -> symmetrize
 
+## 82 IK and parenting 
+- inverse kinematics - setting that up with our rig
+- parenting mesh to our bones
+- with forward kinematics -> each bone needs to be moved into position
+- with inverse kinematics -> there are extra bones (pole target and controller/target) -> way of rigging so you only need to move the base bone in the chain (eg bones of the leg)
+- so moving the controller/target which always points to pole target
+- TODO: create 2 new bones by extruding from joint: one at back of foot -> one at front of knee (roll -90 deg)
+- TODO: clear parent the new bones
+- TODO: EDITMODE: all the pole and controller/target bones -> bone object properties -> "Deform" should be turned off so mesh wont try stick to the bones
+- move pole target bones infront away from the knee (this is where the controller/target will point to) 
 
+#### setting up IK (5min54sec)
+- MODE: POSE -> be in pose mode
+- select 2nd bone in leg chain
+- go to bone constraints panel (right panel) -> add bone constraint -> tracking -> inverse kinematics
+    ##### Target
+    - 1. choose target -> tell it which armature we are using -> armature
+    - 2. choose bone -> target_l
 
+    ##### pole target
+    - 1. choose target -> tell it which armature we are using -> armature
+    - 2. choose bone -> pole_l
 
+- at this point the bones rotate messed up (automatically)
+- FIX: chain length -> length of leg chain -> 2
+- FIX: pole angle -> 180 degrees -> foot should now point towards pole target
+- symetrize to other size -> all bones on left side selected (including pole and controller/target)-> go into edit mode -> rightclick -> symmetrize
 
+#### set up mesh / bone relationship
+- the pose mode animation relies on the fact that in edit mode the roll angle of the faces of the bones are pointing directly forward when in front view 
+- select mesh first -> then select bones -> parent (CTRL + P) -> with automatic weights
+- for the head select the tv and all its components, then select the bone (active) -> parent (CTRL + P) -> set parent to -> bone
 
-## 82 IK and parenting
 ## 83 weight painting
 ## 84 animating the walk cycle
 ## 85 animated textures
