@@ -191,6 +191,35 @@ Lecture thumbnail
 - RESET rotations: select all (A) -> reset (ALT + R)
 - RESET movement: select all (A) -> reset (ALT + G)
 
-
 ## 84 animating the walk cycle
+- animation workspace
+- add plane (SHIFT + A -> geometry-> plane) 
+- remove transform (ALT + G)
+- open reference walk cycle image
+- 24 frame animation cycle is easier to divide
+- 0 and 24 are the same
+- rendering our animation should start on frame 1 (blender default for walk cycles) so as not to have jitter
+- 12 is the inverse (arms / legs)
+- 3,6,9 is same as 15(flipped 3), 18(flipped 6), 21 (flipped 9)
+- ensure all bones selected -> create the initial pose and duplicate the pose on frame 24 
+- make dopesheet / timeline 24 frames
+
+#### flipped poses
+- to copy a flipped pose -> eg. frame 0 and frame 12 same -> select all (A) -> right click -> copy pose (CTRL + C)
+- goto frame 12 -> paste flipped (SHIFT + CTRL + V)
+
+#### record only location + rotation
+- active keying set allows you to record only specific user decided
+- timeline workspace -> keying -> active keying set -> location + rotation
+- create frames 3, 6, 9 from reference pic
+- dope sheet viewport -> select frame 3 
+- in 3d viewport -> select all bones (a)
+- create key frame for all objects (i)
+
+#### copy and paste as "flipped keyframes"
+- select frames 3, 6, 9 from dope sheet summary (top keyframe)
+- in 3d viewport copy (CTRL + C)
+- in dope sheet -> goto frame 15 and "paste flipped"
+
 ## 85 animated textures
+- https://www.pexels.com/
