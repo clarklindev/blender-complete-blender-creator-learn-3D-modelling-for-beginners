@@ -223,3 +223,7 @@ Lecture thumbnail
 
 ## 85 animated textures
 - https://www.pexels.com/
+- imported filename needs to be short 
+- watch out for load errors in shader editor -> properties -> image source errors
+- need to set frames (eg 150 frames)
+- link video (image) to color of principled BSDF 
