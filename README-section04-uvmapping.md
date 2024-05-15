@@ -5,6 +5,9 @@
 - start with cube in blender. 
 
 ## 54 Basic UV Mapping
+
+![section04 - uv mapping - 54-basic-uv-mapping-my-tiny-house.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2054-basic-uv-mapping-my-tiny-house.png)
+
 - textures.com (subscription based..)
 
 ### MATERIAL PREVIEW WINDOW / WORKSPACE
@@ -49,6 +52,9 @@
 - UV Workspace -> unwrap menu (u) -> unwrap
 
 ## 56 wooden barrels UV's
+
+![section04 - uv mapping - 56-wooden-barrels-uvs.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2056-wooden-barrels-uvs.png)
+
 - SHORTCUTS: NUMPAD . -> zoom in on object ONLY
 - SHORTCUTS: NUMPAD / -> zoom in on object and hide all else 
 
@@ -62,6 +68,9 @@
 - barrel texture -> can drag directly from file explorer onto shader editor viewport (one at a time)
 
 ## 57 lots of barrels
+
+![section04 - uv mapping - 57-lots-of-barrels.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2057-lots-of-barrels.png)
+
 - technique to reuse texture... just rotate the 3d object to expose different part of uv map
 - each unique texture needs a material
 - NOTE: when uv's go outside the bounds of the texture, it just repeats itself (ie. the UV shape can be larger than the texture)
@@ -102,10 +111,19 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - rear fins: select faces -> inset (I)
 
 ## 59 plane body / 60 MAKING THE WINGS
+
+![section04 - uv mapping - 60-building-the-wings.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2060-building-the-wings.png)
+
+![section04 - uv mapping - 60-building-the-wings_2.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2060-building-the-wings_2.png)
+
 - Practicing G + G + slide on X and Z
 - and S + S and setting x to 0
 
 ## 61 completing the plane model
+
+![section04 - uv mapping - 61-propellar.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2061-propellar.png)
+
+![section04 - uv mapping - 61-propellar+cockpit.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2061-propellar+cockpit.png)
 
 ### set origin on vertex
 - EDIT MODE: select vertex -> SHIFT + S -> (while holding it down...) -> select cursor to selected
@@ -121,6 +139,9 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - create linked duplicate (alt + D) -> rotate 120
 
 ## 62 unwrapping the plane
+
+![section04 - uv mapping - 62,65-uv-unwrapping-texturing-wings-body-prep-for-animation.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2062,65-uv-unwrapping-texturing-wings-body-prep-for-animation.png)
+
 - if you are using mirror modifier / auto mirror -> the uv map are ontop of each other
 - so the body's mirror modifier should be applied
 - the propellar should not be mirrrored
@@ -154,6 +175,8 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - select propellar controller, then select plane controller (ORDER IMPORTANT) -> then CTRL + P 
 
 ## 66 animating the plane
+![section04 - uv mapping - 66-animating-the-plane_2.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2066-animating-the-plane_2.png)
+
 - NB: turn off affect only origins - main view -> options (top right) -> transform -> AFFECT ONLY (ORIGINS) -> OFF 
 - to prep the scene, you can import another blender files assets (object / collection)
 - menu -> file -> append -> (select from blender file the assets to import)
@@ -177,6 +200,8 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - add the keyframe (i -> rotation)
 
 ## 67 scene + animation adjustments
+![section04 - uv mapping - 67-adjustments.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2067-adjustments.png)
+
 - duplicate the buildings
 - add new textures
 - make some crates
@@ -187,6 +212,11 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - change environment texture
 
 ## 68 LIGHTING AND HDRI's
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_2.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_2.png)
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_3.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_3.png)
+
 - the hdri can be rotated to fit viewport
 - you can choose between cycles or eeve
 - render viewport -> bring in the hdri image -> CTRL + T (shows 3 nodes - texture coordination, mapping, environment texture)
@@ -195,16 +225,30 @@ TIP: you can set 3d cursor (SHIFT + right click) to a new position
 - under mapping rotate on Z
 
 #### EEVE
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_4_EEVE.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_4_EEVE.png)
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_4_EEVE_2.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_4_EEVE_2.png)
+
 - EEVE: render properties panel (right) -> turn on ambient occlusion
 - sun strength 3.0 
 - background strength: 0.3
 
 #### CYCLES
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_4_CYCLES.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_4_CYCLES.png)
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_4_cycles_2.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_4_cycles_2.png)
+
+![section04 - uv mapping - 68-lighting-and-hdri-backgrounds_4_CYCLES_3.png](./section04-uv-mapping/section04%20-%20uv%20mapping%20-%2068-lighting-and-hdri-backgrounds_4_CYCLES_3.png)
+
 - turn on denoise for 3d viewport
 - turn on denoise for rendered image
 
 ---
 ## 69 rendering animations
+
+[![youtube](http://img.youtube.com/vi/LCAKJj6jajo/0.jpg?raw=true)](https://youtu.be/LCAKJj6jajo)
+
 - test rendering with eeve then finally with cycles
 - output properties -> reduce resolution % to 50%
 - check frame range

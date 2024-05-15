@@ -34,6 +34,9 @@
 - to add subdivision modifier to added shape (CTRL + 1)
 
 ### 07 Viewport and renderings
+
+![section01 - introduction - 07-Viewport & Rendering.jpg](./section01-introduction/section01%20-%20introduction%20-%2007-Viewport%20&%20Rendering.jpg)
+
 - modes: 
     - xray, 
     - wireframe, 
@@ -72,6 +75,9 @@
 - this updates background color to like a pink/purple
 
 ### 10 lighting
+
+![section01 - introduction - 10-Lighting.png](./section01-introduction/section01%20-%20introduction%20-%2010-Lighting.png)
+
 - to see light should be in render mode
 - light bulb props -> types:
     1. point -> all directions
@@ -92,6 +98,9 @@
     - select a face -> CTRL + R -> move to get position -> left click (or right click to cancel)
 
 ### 12 simple houses
+
+![section01 - introduction - 12-Simple houses.png](./section01-introduction/section01%20-%20introduction%20-%2012-Simple%20houses.png)
+
 - adding another while in edit mode joins the parts into a single object (so be in object mode)
 - ungroup -> edit mode -> P (separate) -> by loose parts 
 - when loop cut is not "straight" but follows same contour of shape its cutting, you can once clicked on loop cut, 
@@ -236,6 +245,8 @@ NB!!!! DONT FORGET TO TURN BACK TO "medium point" for expected default behavior
 - so you go into edit mode and select the face/s and then assign slot a material
 
 ## 19 lighthouse materials
+![section01 - introduction - 19-lighthouse-materials.png](./section01-introduction/section01%20-%20introduction%20-%2019-lighthouse-materials.png)
+
 - TODO: lighthouse loopcut + EMISSION materials (emit light)
 - loop cut (CTRL + R) AND use mouse wheel to set more cuts -> then click to confirm amount of cuts
 - TODO: create material slots x4 (red, white, gray-base, light)
@@ -245,3 +256,6 @@ NB!!!! DONT FORGET TO TURN BACK TO "medium point" for expected default behavior
 #### grow selection
 - alt + left click on edge -> CTRL + (NUMPAD +) to grow selection
 - SHADING WORKSPACE -> Select -> select more or less (CTRL + numpad +/-)
+
+## 20 lighting and atmosphere
+![section01 - introduction - 20-lighting-and-atmosphere.png](./section01-introduction/section01%20-%20introduction%20-%2020-lighting-and-atmosphere.png)

@@ -4,6 +4,9 @@
 walk cycle - playing animation over and over when specific button pressed
 
 ## 72 basic animation
+[![youtube](https://img.youtube.com/vi/GOFQtg2VLDk/0.jpg)](https://www.youtube.com/watch?v=GOFQtg2VLDk)
+[![youtube](https://img.youtube.com/vi/4IPTW8OPFyc/0.jpg)](https://www.youtube.com/watch?v=4IPTW8OPFyc)
+
 - animation workspace
 - if you have keyframes (not at start) but you want to animate Y, you need to add the position keyframes on start frame too.
 
@@ -33,6 +36,9 @@ walk cycle - playing animation over and over when specific button pressed
 - to record light, select light -> right panel object data properties for light -> right click on color -> insert keyframe
 
 ## 74 the graph editor
+
+[![youtube](https://img.youtube.com/vi/-HL4m3S-lao/0.jpg)](https://www.youtube.com/watch?v=-HL4m3S-lao)
+
 Lecture thumbnail
 
 - use graph editor to position elements in relation to origin point
@@ -46,6 +52,7 @@ Lecture thumbnail
 - can adjust the duration the ball stays on top by playing with the curve (pivot point -> individual centers) -> select all -> drag out so it rounds out the graph
 
 ## 75 bone basics
+
 - makes a worm animation
 - bones requires vertices to deform
 - EDIT MODE: add loop cuts (CTRL + R) -> roughly 10 cuts
@@ -66,6 +73,9 @@ Lecture thumbnail
 - duplicate a selection of bones -> then select the one you want to connect -> then select the one you want to connect to last -> parent (CTRL + P) -> connected
 
 ## 76 animating bones
+
+[![youtube](https://img.youtube.com/vi/LrpL66bbayw/0.jpg)](https://www.youtube.com/watch?v=LrpL66bbayw)
+
 - select bone and skin and apply rotation (CTRL + A) with the objects already positioned origin center 0,0,0
 - reset positions to center of world (ALT + G)
 #### only bones have pose mode 
@@ -101,10 +111,16 @@ Lecture thumbnail
 - the animation is looped by setting the start/end frame on the timeline
 
 ## 77 subdivision surface modelling
+
+![section05 - rigging and animation - 77-subdivision-surface-modelling.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2077-subdivision-surface-modelling.png)
+
 - add auto mirror: 3d viewport -> menu (n) -> edit -> auto mirror (turned on via preferences add-ons -> mesh:auto-mirror) -> x-axis, orientation: positive
 - add subdivision surface modifier: levels view: 3, render: 3
 
 ## 78 the modifier stack
+
+![section05 - rigging and animation - 78-modifier-stack.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2078-modifier-stack.png)
+
 ### the tv screen: 
 - inset (i) moves edges closer to sides 
 - boundary (b) to exclude inset for mirror
@@ -113,12 +129,18 @@ Lecture thumbnail
 - then subsurface modifier
 
 ## 79 blob man
+
+![section05 - rigging and animation - 79-blob-man.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2079-blob-man.png)
+
 - select all group to new collection (M)
 - move head to 4m 
 - then cursor to world origin (SHIFT + S)
 - create neck (cube) -> auto mirror on X
 
 ## 80 rig ready meshes
+
+![section05 - rigging and animation - 80-rig-ready-mesh.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2080-rig-ready-mesh.png)
+
 - bevel (CTRL + B) around shoulder, arm and wrist joints then use mouse wheel to add extra loop cut
 - bevel (CTRL + B) cut around knee, foot
 - A shaped figure instead of T 
@@ -148,6 +170,9 @@ Lecture thumbnail
 - select all the bones to mirror -> right click -> symmetrize
 
 ## 82 IK and parenting 
+
+![section05 - rigging and animation - 82-ik-and-parenting.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2082-ik-and-parenting.png)
+
 - inverse kinematics - setting that up with our rig
 - parenting mesh to our bones
 - with forward kinematics -> each bone needs to be moved into position
@@ -181,6 +206,9 @@ Lecture thumbnail
 - for the head select the tv and all its components, then select the bone (active) -> parent (CTRL + P) -> set parent to -> bone
 
 ## 83 weight painting
+
+![section05 - rigging and animation - 83-weight-painting.png](./section05-rigging-and-animation/section05%20-%20rigging%20and%20animation%20-%2083-weight-painting.png)
+
 - go out of pose mode -> object mode -> select character -> then weight painting
 - object mode -> select armature (BONES) first -> then SHIFT + select mesh -> then go into weight painting mode -> now you can hold down control (CTRL) and click and see the weight of each section
 - now you can hold ALT + click on a bone to weight paint each bone
@@ -192,6 +220,9 @@ Lecture thumbnail
 - RESET movement: select all (A) -> reset (ALT + G)
 
 ## 84 animating the walk cycle
+
+[![youtube](https://img.youtube.com/vi/rWQ4zNpXShI/0.jpg)](https://www.youtube.com/watch?v=rWQ4zNpXShI)
+
 - animation workspace
 - add plane (SHIFT + A -> geometry-> plane) 
 - remove transform (ALT + G)
@@ -222,6 +253,9 @@ Lecture thumbnail
 - in dope sheet -> goto frame 15 and "paste flipped"
 
 ## 85 animated textures
+
+[![youtube](https://img.youtube.com/vi/-G8b1kTMvLE/0.jpg)](https://www.youtube.com/watch?v=-G8b1kTMvLE)
+
 - https://www.pexels.com/
 - imported filename needs to be short 
 - watch out for load errors in shader editor -> properties -> image source errors

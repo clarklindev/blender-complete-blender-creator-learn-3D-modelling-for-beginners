@@ -1,6 +1,8 @@
 # Section 02 - Modular dungeon
 
 ## 23 Barrel
+![section02 - modular dungeon - 23-barrel.jpg](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2023-barrel.jpg)
+
 - create cylinder
 - horizontal loop cut (CTRL + R) x 2 
 - scale (s) + (AND SHIFT + Z (exclude scaling on z axis))
@@ -34,6 +36,9 @@ Alt FIX:
 ---
 
 ## 24 Crate
+
+![section02 - modular dungeon - 24-crate.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2024-crate.png)
+
 - cube (1.2m)
 - edit -> faces mode
 - inset (i) -> i (i again for "individual")
@@ -54,6 +59,10 @@ Alt FIX:
 
 ## 25 Pillar
 
+![section02 - modular dungeon - 25-pillar.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2025-pillar.png)
+
+![section02 - modular dungeon - 25-pillarX3.png](./section02-modular-dungeon//section02%20-%20modular%20dungeon%20-%2025-pillarX3.png)
+
 ### Mirror Modifier + clipping
 - EDIT MODE -> in wireframe mode 
 - loop cut (horizontal)
@@ -73,6 +82,9 @@ Alt FIX:
 - the modifier (mirror) needs to be applied (in object mode) to tweak individual vertices else it applies to the mirror side as well.
 
 ## 27 Pillars (knife / bisect cut) 
+
+![section02 - modular dungeon - 27-pillar-details-bevel.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2027-pillar-details-bevel.png)
+
 - edge slide -> Even (e) to mimic edge (top/bottom) and 'flipped' for (top/bottom)
 - loop cuts only work on quads, not n-gon (more than 4 verices)
 - FIX: knife (K) -> allows you to make cuts (on edge/vertices) -> enter
@@ -85,6 +97,9 @@ Alt FIX:
 - add material color
 
 ## 28 Adding materials
+
+![section02 - modular dungeon - 28-materials.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2028-materials.png)
+
 #### Link material (CTRL + L)
 - the select all that you want to match color with (like style painter) then select the object with material you want to copy, then CTRL + L (link materials)
 - render engine EEVEE -> ambient occlusion -> ON 
@@ -125,6 +140,8 @@ Alt FIX:
 - for speed - weld building with overlapping geometry is common and is fine...
 
 ## 32 CREATE HOLDDOOR
+![section02 - modular dungeon - 32-door-frame.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2032-door-frame.png)
+
 - TODO: draw outline of door then negative extrude
 - SHIFT RIGHT CLICK (move cursor)
 - use a plane -> rotate x:90deg, size: 1m
@@ -146,11 +163,14 @@ Alt FIX:
 - Select all (A) -> mesh -> Transform -> randomize
 
 ## 33 Cutting the door opening
+![section02 - modular dungeon - 33-cutting-door-opening-joined-wall.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2033-cutting-door-opening-joined-wall.png)
+
 - OPTION 1 - use knife tool to cut hole
 - OPTION 2 - using a shape to cut a hole in shape using BOOLEAN operation
 - in WIREFRAME + XRAY mode -> make cuts and select faces you wont need -> delete faces (deletes both side of wall (because its XRAY/WIREFRAME mode)) 
 
 ## 34 Shading the walls
+![section02 - modular dungeon - 34-shading-the-walls.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2034-shading-the-walls.png)
 
 #### Linked Selection
 - TIP: selects linked (L) 
@@ -161,6 +181,9 @@ Alt FIX:
 - zoom-in on selected object -> select object (from scene collection *right viewport) + "NUM /"
 
 ## 35 Creating the floor modules
+
+![section02 - modular dungeon - 35-creating the floors_3.png](./section02-modular-dungeon/section02%20-%20modular%20dungeon%20-%2035-creating%20the%20floors_3.png)
+
 - ctrl + a (APPLY transformations)
 - turn snapping on  
 - Linked Duplicate (Alt + D)

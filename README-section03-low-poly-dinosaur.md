@@ -30,6 +30,8 @@
 - for rounding out the shape: select edges from head to tail -> G (g) + grabe slide (G)
 
 ## 46 DINO FACE
+![section03 - low poly dinosaur - 46-dinosaur-face.png](./section03-low-poly-dinosaur/section03%20-%20low%20poly%20dinosaur%20-%2046-dinosaur-face.png)
+
 - inset but with boundary (so it doesnt include the mirror edges)
 - AUTO merge vertices -> OFF
 - the way to create depth at the mouth is extrude (e) -> then scales with the normals of the faces selected (alt + s)
@@ -39,6 +41,12 @@
 - use decimate modifier for low poly feel (0.01)
 - copy landscape and store in spares collection -> hide from render and view
 - apply the decimated landscape after to the original
+
+## 48 lighting - trees
+
+![section03 - low poly dinosaur - 48-trees-lighting_2.png](./section03-low-poly-dinosaur/section03%20-%20low%20poly%20dinosaur%20-%2048-trees-lighting_2.png)
+
+![section03 - low poly dinosaur - 48-trees-lighting.png](./section03-low-poly-dinosaur/section03%20-%20low%20poly%20dinosaur%20-%2048-trees-lighting.png)
 
 ## 50 mountains
 - node wrangler addon -> select principle BSDF -> CTRL + T -> (only keep texture editor)
